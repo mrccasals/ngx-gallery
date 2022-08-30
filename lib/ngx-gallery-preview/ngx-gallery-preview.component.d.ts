@@ -98,6 +98,8 @@ export declare class NgxGalleryPreviewComponent implements OnInit, OnDestroy, On
     mouseDownHandler(e: any): void;
     mouseUpHandler(e: any): void;
     mouseMoveHandler(e: any): void;
+    getIndexSrc(index: any): SafeUrl;
+    getTypeSrc(index: any): String;
     private getClientX;
     private getClientY;
     private resetPosition;
